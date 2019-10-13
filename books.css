@@ -1,0 +1,107 @@
+.image{
+  filter:blur(3px);
+   top: 50px;
+ 
+}  
+.search{
+  float: right;
+}
+   .search input[type=text] {
+  
+    padding: 6px;
+    margin-top: 4px;
+    border: none;
+    font-size: 17px;
+  }
+  .search button{
+    float: right;
+    padding: 6px;
+    margin-top: 3px;
+    font-size: 17px;
+  }
+
+.bix{
+  background-image:url(try1.jpg);
+  background-color: pink;
+  padding: 820px 450px;
+  position: absolute;
+  width:125;
+  height:350;
+  top: 178%;
+  left: 632;
+  transform: translate(-50%, -50%);
+}
+
+.sticky{
+  overflow: hidden;
+  background-color: #333;
+  opacity:0.4 ;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  left:0;
+
+}
+.sticky a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.sticky a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.sticky a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.box1{
+  background-color: pink;
+  background-repeat: no-repeat;
+  padding:120px 310px;
+  /*width:480px;
+  height:250px;*/
+  position: absolute;
+  top: 100;
+  left: 150;
+}
+ .pic{
+   background-image: url(harry1.jpg);
+  background-color:black;
+  background-repeat: no-repeat;
+  padding:110px 80px;
+  /*width:480px;
+  height:250px;*/
+  position: absolute;
+  top: 18;
+  left: 10;
+ }
+ .content{
+  background-color:orange;
+  background-repeat: no-repeat;
+  padding:92px 200px;
+  /*width:480px;
+  height:250px;*/
+  position: absolute;
+  top: 18;
+  left: 185;
+ }
+ .content h1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 12;
+   color:black;
+   text-align: top;
+ }
