@@ -6,11 +6,11 @@
 .bix{
   background-image:url(try1.jpg);
   background-color: pink;
-  padding: 200px 450px;
+  padding: 180px 450px;
   position: absolute;
   width:125;
-  height:150;
-  top: 60%;
+  height:120;
+  top: 55%;
   left: 625;
   transform: translate(-50%, -50%);
 }
@@ -88,17 +88,26 @@ ul {
       margin-top: 3px;
       font-size: 17px;
     }
-    .box{
+    /*.box{
         
-        background-color:whitesmoke;
+        background-color:white;
         background-repeat: no-repeat;
         padding:200px 350px;
         /*width:480px;
         height:250px;*/
-        position: absolute;
+        /*position: absolute;
         top: 100;
         left: 110;
-      }
+        background-image:url(try1.jpg);
+        background-color: pink;
+        padding: 180px 350px;
+        position: absolute;
+        width:125;
+        height:20;
+        top: 48%;
+        left: 525;
+        transform: translate(-50%, -50%);
+      }*/
       .pic{
         background-color:black;
         background-repeat: no-repeat;
@@ -106,14 +115,14 @@ ul {
         /*width:480px;
         height:250px;*/
         position: absolute;
-        top: 48;
-        left: 0;
+        top: 100;
+        left: 130;
        }
        .content{
         background-color:whitesmoke;
         background-repeat: no-repeat;
-        height:310;
-        width:520;
+        height:300;
+        width:570;
         text-align: center;
        /* padding:92px 200px;*/
         /*width:480px;
