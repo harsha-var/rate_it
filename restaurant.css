@@ -79,7 +79,6 @@ padding: 0;
   left: 150;
 }
  .pic{
-  background-color:black;
   background-repeat: no-repeat;
   /*padding:110px 80px;*/
   /*width:480px;
@@ -92,14 +91,14 @@ padding: 0;
   background-color:whitesmoke;
   background-repeat: no-repeat;
   height:220;
-  width:450;
+  width:570;
   text-align: center;
  /* padding:92px 200px;*/
   /*width:480px;
   height:250px;*/
   position: absolute;
   top: 18;
-  left: 187;
+  left: 157;
  }
  .content h1{
    font-family: 'Times New Roman', Times, serif;
@@ -115,6 +114,7 @@ padding: 0;
  .box2{
   background-color:whitesmoke;
   background-repeat: no-repeat;
+  text-align: left;
   /*padding:120px 292px;*/
   /*width:480px;
   height:250px;*/
@@ -126,25 +126,28 @@ padding: 0;
   background-color:whitesmoke;
   background-repeat: no-repeat;
   height:200;
-  width:450;
+  width:570;
   text-align: center;
  /* padding:92px 200px;*/
   /*width:480px;
   height:250px;*/
   position: absolute;
   top: 18;
-  left: 187;
+  left: 160;
  }
  .content1 h1{
    font-family: 'Times New Roman', Times, serif;
+   text-align: center;
    font-size: 25;
    color:black;
    text-align: top;
  }
  .content1 pre{
-   text-align: left;
+   text-align:left;
+   margin: 1em 0;
+
    font-size: 15;
-   margin-left:0px ;
+  
  }
 /*.pic2{
   background-image: url(blowout.jpg);
@@ -189,20 +192,20 @@ padding: 0;
   height:250px*/
   position: absolute;
   top: 250;
-  left: 10;
+  left: 0;
 }
 .content2{
   background-color:whitesmoke;
   background-repeat: no-repeat;
   height:150;
-  width:450;
+  width:560;
   text-align:justify;
  /* padding:92px 200px;*/
   /*width:480px;*/
   height:210px;
   position: absolute;
   top: 18;
-  left: 190;
+  left: 170;
  }
  .content2 h1{
    font-family: 'Times New Roman', Times, serif;
@@ -222,13 +225,13 @@ padding: 0;
  text-align: left;
   position: absolute;
   top: 520;
-  left: 18;
+  left: 0;
 }
 .content3{
   background-color:whitesmoke;
   background-repeat: no-repeat;
   height:150;
-  width:450;
+  width:550;
   text-align:justify;
  /* padding:92px 200px;*/
   /*width:480px;*/

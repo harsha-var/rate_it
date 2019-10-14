@@ -90,7 +90,7 @@ ul {
     }
     .box{
         
-        
+        background-color:whitesmoke;
         background-repeat: no-repeat;
         padding:200px 350px;
         /*width:480px;
@@ -107,7 +107,7 @@ ul {
         height:250px;*/
         position: absolute;
         top: 48;
-        left: 10;
+        left: 0;
        }
        .content{
         background-color:whitesmoke;
@@ -120,7 +120,7 @@ ul {
         height:250px;*/
         position: absolute;
         top: 0;
-        left: 197;
+        left: 220;
        }
        .content h1{
          font-family: 'Times New Roman', Times, serif;

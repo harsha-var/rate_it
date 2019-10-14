@@ -6,11 +6,11 @@
 .bix{
   background-image:url(try1.jpg);
   background-color: pink;
-  padding: 550px 450px;
+  padding: 555px 450px;
   position: absolute;
   width:125;
-  height:350;
-  top: 135%;
+  height:300;
+  top: 130%;
   left: 625;
   transform: translate(-50%, -50%);
 }
@@ -43,43 +43,48 @@
   color: white;
 }
  .box1{
-  background-image: url(lol.jpg);
+  background-image: url(books1.jpg);
   background-color: pink;
   background-repeat: no-repeat;
-  padding:150px 280px;
+  padding:150px 350px;
   /*width:480px;
   height:250px;*/
   position: absolute;
   top: 100;
-  left: 210;
+  left: 165;
 }
 .box2{
+  object-fit: cover;
+  background-repeat: no-repeat;
   background-color: darkorange;
-  padding:130px 110px;
+  /*padding:30px 170px;*/
   position: absolute;
   top:530;
-  left:210;
+  left:160;
 }
+
 .box3{
+  /*background-image: url(theatre.jpg);*/
+  background-repeat: no-repeat;
   background-color:darkred;
-  padding:130px 110px;
+  /*padding:130px 175px;*/
   position: absolute;
   top:530;
-  left:500;
+  left:540;
 }
 .box4{
   background-color:orange;
-  opacity:0.5 ;
+  /*opacity:0.5 ;*/
   color:black;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20;
   background-repeat: no-repeat;
   padding:10px 15px;
   height:230;
-  width:570;
+  width:650;
   position: absolute;
   top: 1030;
-  left: 210;
+  left: 180;
 }
 /*TO DISPLAY IN STRAIGHT LINE*/
 
@@ -129,7 +134,7 @@ ul {
     margin-top: 3px;
     font-size: 17px;
   }
-
+  
 
 
 
