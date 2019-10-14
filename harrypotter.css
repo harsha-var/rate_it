@@ -106,8 +106,8 @@ ul {
         /*width:480px;
         height:250px;*/
         position: absolute;
-        top: 48;
-        left: 30;
+        top: 70;
+        left: 150;
        }
        .content{
         background-color:whitesmoke;
@@ -120,7 +120,7 @@ ul {
         height:250px;*/
         position: absolute;
         top: 0;
-        left: 350;
+        left: 200;
        }
        .content h1{
          font-family: 'Times New Roman', Times, serif;
