@@ -6,11 +6,11 @@
 .bix{
   background-image:url(try1.jpg);
   background-color: pink;
-  padding: 200px 450px;
+  padding: 140px 450px;
   position: absolute;
   width:125;
   height:150;
-  top: 60%;
+  top: 50%;
   left: 625;
   transform: translate(-50%, -50%);
 }
@@ -107,7 +107,7 @@ ul {
         height:250px;*/
         position: absolute;
         top: 48;
-        left: 10;
+        left: 30;
        }
        .content{
         background-color:whitesmoke;
@@ -120,7 +120,7 @@ ul {
         height:250px;*/
         position: absolute;
         top: 0;
-        left: 197;
+        left: 350;
        }
        .content h1{
          font-family: 'Times New Roman', Times, serif;
