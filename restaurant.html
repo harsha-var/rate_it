@@ -1,6 +1,7 @@
 <html>
      <head>
       <link rel="stylesheet" href="restaurant.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
      </head>
      <body>
             <nav id="main">
@@ -30,10 +31,24 @@
                       <li><a href="books.html">Books</a></li>
                       <li><a href="restaurant.html">Restaurants</a></li>
                       <li><a href="theatre.html">Theatre</a></li>
-                      <li><a href="#">About</a></li>
+                      <li><a href="index.html#box4">About</a></li>
                    </ul>  
                  </nav>
                 </div>
+                <script>
+                  $(function() {
+                      $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+                          var target = $(this.hash);
+                          target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+                          if (target.length) {
+                              $('html,body').animate({
+                                  scrollTop: target.offset().top
+                              }, 1000);
+                              return false;
+                          }
+                      });
+                  });
+                  </script>
    <div class="box1">
     <div class="pic">
        <img src="coalbbq.jpg"height="220;" >

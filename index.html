@@ -1,6 +1,7 @@
   <html>
      <head>
       <link rel="stylesheet" href="rate1.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
      </head>
      <body>  
 
@@ -33,10 +34,24 @@
                      <li><a href="books.html">Books</a></li>
                      <li><a href="restaurant.html">Restaurants</a></li>
                      <li><a href="theatre.html">Theatre</a></li>
-                     <li><a href="#">About</a></li>
+                     <li><a href="#box4">About</a></li>
                   </ul>  
                 </nav>
                </div>
+               <script>
+                  $(function() {
+                      $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+                          var target = $(this.hash);
+                          target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+                          if (target.length) {
+                              $('html,body').animate({
+                                  scrollTop: target.offset().top
+                              }, 1000);
+                              return false;
+                          }
+                      });
+                  });
+                  </script>
             
                      <div class="box1"></div>
                      <div class="box2">
@@ -46,7 +61,7 @@
                            <img src="theatre.jpg"width="370"height="300">
 
                      </div>
-                     <div class="box4">
+                     <div id= "box4" class="box4">
                            <h1 style="font-size:200%;">About us</h1>                           
                          <p>This is a basic review website for books 
                              Theatres and Restaurants.This website is 
@@ -58,7 +73,6 @@
          </div>  
             </body>
             </html>
-
 
 
 
